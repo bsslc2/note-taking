@@ -7,19 +7,34 @@ Where does error come from
 The error come from: 
    - Bias 
    - Variance
-=>Kowing the error come from in order to improve the model
+=> Kowing the error come from in order to improve the model
   
-  Assuming that 100 times of expriments ranges from simple model(y = b + w * xcp)  to complex model(b + w1 * xcp + w2 * xcp<SUP>2</SUP> + w3 * xcp<SUP>3</SUP>+...)
+   Assuming that 100 times of expriments ranges from 
+   					simple model(y = b + w * xcp)  to 
+					complex model(b + w1 * xcp + w2 * xcp<SUP>2</SUP> + w3 * xcp<SUP>3</SUP>+...)
 	  
-	  Small Variance: the outputs(f*) are more concentrative 
+	  - Small Variance: the outputs(f*) are more concentrative 
 			=> a simplier model leads to a smaller variance (BUT larger bias)			
 	  			=> the functon space is larger in the complex model 
 				   so that the f_hat could be included
 				   
-	  Small Bias: the outputs(f*) are closer to the real values(f_hat)
+	  - Small Bias: the outputs(f*) are closer to the real values(f_hat)
 		  	
-			Overfitting: small bias, large variance   => large error on testing data
-				how? =>Redesign the model: more features / more complex model
+			- Overfitting: large variance, small bias   => large error on testing data
+				How? => collect more data(not always practical)
+						- generating data from existing data
+				     => Regularization: see ML1
 				
-			Underfitting: large bias, small variance  => Model can't fit traing data
+			- Underfitting: large bias, small variance  => Model can't fit traing data
+				How? => Redesign the model: more features / more complex model 
+  
+   Cross Validation:
+  	Training Set: Training Set + Validation set
+  		Model selected from validation set and then use on testing set
+   
+   N-fold Cross Validation:
+  	Training Set: Training Set + Training Set + Validation set
+
+
+	
 			

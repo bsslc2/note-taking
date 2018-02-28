@@ -1,0 +1,22 @@
+1.e.g.:
+		f(censors of information) = angles of steeling wheel  (self-driving car)
+ 		f(userA, goodsB) = the probability of purchase (recommendation system)
+2.reading about estimating the combat power(CP) of a pokemon after evolution:
+	step 1 model  => y = b + w * xcp  
+											 b, w  parameters 
+	                 y(pokemon after evolution) = f(pokemon x before evlution)
+									 y = b + Σwixi (linear regression)  
+								=> a set of function
+	step 2 goodness of function
+		L(f) = L (w, b) => loss function: function's function => output : how bad of the fuction
+				 => evaluate a set to parameter b, w
+				 = Σ real value - estimated value
+				 => finding the minimun of the loss function => Gredient Decent
+	step 3 Gredient Decent
+		η : learning rate
+		compute: dL/dW|w=w0   1w <- w0- ηdL/dW|w=w0  => many iterations
+		Evaluate the model: the average of error of the training data &
+																						 of testing data
+  step 4 optimize:select another model
+		y = b + w1 * xcp + w2 * xcp<SUP>2</SUP> 
+		

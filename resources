@@ -1,10 +1,14 @@
 Kafka
-http://debugo.com/kafka-params/
+  http://debugo.com/kafka-params/
 chatbot
-https://ithelp.ithome.com.tw/articles/10192259
+  https://ithelp.ithome.com.tw/articles/10192259
 docker-elk-tutorial + django + logging
-https://github.com/twtrubiks/docker-elk-tutorial
+  https://github.com/twtrubiks/docker-elk-tutorial
 PostgreSQL book
-https://docs.postgresql.tw/tw.10/what-is-postgresql.html
+  https://docs.postgresql.tw/tw.10/what-is-postgresql.html
 AI速查表：神经网络、机器学习、深度学习与数据科学一览
-https://mp.weixin.qq.com/s/zl98_l7-dUdSD9vczp4ZuA
+  https://mp.weixin.qq.com/s/zl98_l7-dUdSD9vczp4ZuA
+LIME:  “Why Should I Trust You?”: Explaining the Predictions of Any Classifier"
+  https://arxiv.org/abs/1602.04938
+  https://medium.com/@kstseng/lime-local-interpretable-model-agnostic-explanation-%E6%8A%80%E8%A1%93%E4%BB%8B%E7%B4%B9-a67b6c34c3f8
+

@@ -36,12 +36,12 @@
 		Tiny higher error on training but lower error on testing data 
 		=> The suitable model
 Key Points:
-1.Model selection 
-2.Evaluation : loss function
-3.Gredient Decent
-4.Optimizing: another model selection
-5.Overfitting
-6.Regulation
+	1.Model selection 
+	2.Evaluation : loss function
+	3.Gredient Decent
+	4.Optimizing: another model selection
+	5.Overfitting
+	6.Regulation
 
 				    
 		

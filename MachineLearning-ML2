@@ -1,11 +1,25 @@
-Knowing that where does the error come from: 
-   - Bias 
-   - Variance
-=> in order to improve the model 
+Where does error come from
 
 --continue from ML1
   f_hat = the cp value of Pokemon after evolution => there must be a best function
   f* =>from training data, f* has been found (f* is the estimation of f_hat)
+
+The error come from: 
+   - Bias 
+   - Variance
+=>Kowing the error come from in order to improve the model
   
-  assuming that 100 times of expriments ranges from simple model(y = b + w * xcp)  to complex model(b + w1 * xcp + w2 * xcp<SUP>2</SUP> + w3 * xcp<SUP>3</SUP>+...)
-  a simplier model leads to a smaller variance 
+  Assuming that 100 times of expriments ranges from simple model(y = b + w * xcp)  to complex model(b + w1 * xcp + w2 * xcp<SUP>2</SUP> + w3 * xcp<SUP>3</SUP>+...)
+	  
+	  Small Variance: the outputs(f*) are more concentrative 
+			=> a simplier model leads to a smaller variance (BUT larger bias)			
+	  			=> the functon space is larger in the complex model 
+				   so that the f_hat could be included
+				   
+	  Small Bias: the outputs(f*) are closer to the real values(f_hat)
+		  	
+			Overfitting: small bias, large variance   => large error on testing data
+				how? =>Redesign the model: more features / more complex model
+				
+			Underfitting: large bias, small variance  => Model can't fit traing data
+			
